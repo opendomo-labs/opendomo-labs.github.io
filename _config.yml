@@ -25,7 +25,7 @@ theme_settings:
 
   # Icons
   rss: false
-  email_address: # Full email address, e.g. "sam@example.com"
+  email_address: dlerch@opendomo.com
   behance:
   bitbucket:
   dribbble:
