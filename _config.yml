@@ -25,7 +25,7 @@ theme_settings:
 
   # Icons
   rss: false
-  email_address: 
+  email_address:
   behance:
   bitbucket:
   dribbble:
@@ -41,7 +41,7 @@ theme_settings:
   stack_exchange:  # Full URL
   steam:
   tumblr:
-  twitter: daniellerch
+  twitter:
   wordpress:
   youtube:
 
