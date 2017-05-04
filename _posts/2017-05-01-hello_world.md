@@ -2,6 +2,7 @@
 layout: post
 title: Hello World
 author: Daniel Lerch hostalot
+author_url: https://www.linkedin.com/in/daniellerch
 ---
 
 Este es el primer post de OpenDomo Labs! un blog destinado a desarrolladores que quieren experimentar con tecnologías relacionadas con smart buildings, inteligencia artificial y control de instalaciones.
