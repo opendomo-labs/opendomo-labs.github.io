@@ -6,7 +6,7 @@ author: Daniel Lerch hostalot
 author_url: https://www.linkedin.com/in/daniellerch
 ---
 
-Este es el primer post de OpenDomo Labs! un blog destinado a desarrolladores que quieren experimentar con tecnologías relacionadas con smart buildings, inteligencia artificial y control de instalaciones.
+Este es el primer post de OpenDomo Labs! un blog destinado a desarrolladores que quieren experimentar con tecnologías relacionadas con *smart buildings*, inteligencia artificial y control de instalaciones.
 
 OpenDomo Labs es parte de OpenDomo Services SL, una empresa dedicada a la fabricación y comercialización de productos relacionados con la sensorización y el control de instalaciones. Pero los experimentos que se van a realizar en este blog, no necesariamente son sobre productos de OpenDomo Services SL, y por supuesto, la empresa no ofrece ningún tipo de soporte sobre lo que aquí se expone.
 
