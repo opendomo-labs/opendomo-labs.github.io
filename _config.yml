@@ -15,7 +15,7 @@ theme_settings:
      OpenDomo Labs
   header_text_feature_image:
   footer_text: >
-  <a href="http://www.opendomo.com">www.opendomo.com</a>
+     <a href="http://www.opendomo.com">www.opendomo.com</a>
 
   # Icons
   rss: false
