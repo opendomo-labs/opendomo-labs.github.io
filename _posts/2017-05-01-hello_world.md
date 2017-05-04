@@ -13,4 +13,4 @@ La idea de este blog es presentar diferentes casos prácticos mediante los que e
 
 Para seguir los casos prácticos que se presentan son necesarios ciertos conocimientos de programación y de electricidad, por lo que no son aptos para todos los usuarios. 
 
-Dicho esto, espero que os guste el blog y que podáis sacara provecho de lo que  aquí se expone.
+Dicho esto, espero que os guste el blog y que podáis sacar provecho de lo que  aquí se expone.
