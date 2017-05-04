@@ -5,7 +5,7 @@ layout: default
   <header style="background-image: url('{{ site.baseurl }}/{{ page.feature-img }}')">
     <h1 class="title">{{ page.title }}</h1>
     <p class="meta">
-     <small>{{ post.date | date: "%B %-d, %Y" }} - <a class='meta' href='{{ post.author_url }}'>{{ post.author }}</a></small>
+     <small>{{ page.date | date: "%B %-d, %Y" }} - <a class='meta' href='{{ page.author_url }}'>{{ page.author }}</a></small>
     </p>
   </header>
   <section class="post-content">{{ content }}</section>
