@@ -12,13 +12,13 @@ theme_settings:
 
   # Header and footer text
   header_text: >
-     <h1>
+     <strong>
         <a href='#'>#smart-buildings</a> 
         <a href='#'>#metering</a> 
         <a href='#'>#control</a> 
         <a href='#'>#voice-interface</a>
         <a href='#'>#AI</a>         
-     </h1>
+     </strong>
   header_text_feature_image:
   footer_text: >
      <a href="http://www.opendomo.com">www.opendomo.com</a>
