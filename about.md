@@ -1,6 +1,6 @@
 ---
 layout: page
-title: opendomo-labs
+title: info
 permalink: /about/
 ---
 
