@@ -20,7 +20,7 @@ layout: default
           </a>
         </h1>
         <p class="meta">
-          {{ post.date | date: "%B %-d, %Y" }} - <small><a href='{{ post.author_url }}'>{{ post.author }}</a></small>
+          <small>{{ post.date | date: "%B %-d, %Y" }} - <a class='meta' href='{{ post.author_url }}'>{{ post.author }}</a></small>
         </p>
       </header>
       <div class="excerpt">
