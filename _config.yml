@@ -1,21 +1,21 @@
 # SITE CONFIGURATION
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://example.com" # the base hostname & protocol for your site
+url: "http://labs.opendomo.com" # the base hostname & protocol for your site
 
 # THEME-SPECIFIC CONFIGURATION
 theme_settings:
   # Meta
-  title: Type Theme
-  avatar: avatar.png
+  title: OpenDomo Labs
+  avatar: opendomo.png
   gravatar: # Email MD5 hash
-  description: "A website with blog posts and pages" # used by search engines
+  description: "OpenDomo Labs: smart buildings and artificial intelligence" # used by search engines
 
   # Header and footer text
   header_text: >
      OpenDomo Labs
   header_text_feature_image:
   footer_text: >
-   Powered by <a href="http://jekyllrb.com">Jekyll</a> with <a href="https://rohanchandra.github.io/project/type/">Type Theme</a>
+  <a href="http://www.opendomo.com">www.opendomo.com</a>
 
   # Icons
   rss: false
@@ -25,7 +25,7 @@ theme_settings:
   dribbble:
   facebook:
   flickr:
-  github: "rohanchandra/type-theme"
+  github: "opendomo-labs"
   google_plus:
   instagram:
   linkedin:  # Full URL
