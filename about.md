@@ -1,6 +1,6 @@
 ---
 layout: page
-title: About
+title: Acerca de
 permalink: /about/
 feature-img: "img/sample_feature_img_2.png"
 ---
