@@ -13,10 +13,10 @@ theme_settings:
   # Header and footer text
   header_text: >
      <strong>
-        <a class='tags' href='#'>#smart-buildings</a> &nbsp;&nbsp;  
-        <a class='tags' href='#'>#metering</a> &nbsp;&nbsp; 
-        <a class='tags' href='#'>#control</a> &nbsp;&nbsp;
-        <a class='tags' href='#'>#voice-interface</a> &nbsp;&nbsp;
+        <a class='tags' href='#'>#smart-buildings</a> &nbsp;&nbsp;&nbsp;  
+        <a class='tags' href='#'>#metering</a> &nbsp;&nbsp;&nbsp; 
+        <a class='tags' href='#'>#control</a> &nbsp;&nbsp;&nbsp;
+        <a class='tags' href='#'>#voice-interface</a> &nbsp;&nbsp;&nbsp;
         <a class='tags' href='#'>#AI</a>         
      </strong>
   header_text_feature_image:
