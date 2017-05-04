@@ -12,8 +12,7 @@ theme_settings:
 
   # Header and footer text
   header_text: >
-     OpenDomo Labs es un blog destinado a desarrolladores que quieren experimentar con tecnologías relacionadas con 
-     <u>smart buildings</u>, inteligencia artificial y control de instalaciones.
+     #smart-buildings, #voice-control, #AI, #control
   header_text_feature_image:
   footer_text: >
      <a href="http://www.opendomo.com">www.opendomo.com</a>
