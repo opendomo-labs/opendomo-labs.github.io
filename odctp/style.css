@@ -1,0 +1,238 @@
+body {
+	font-family:Helvetica, Arial, sans-serif;
+}
+ul {
+	margin: 0px;
+}
+li {
+	list-style: none;
+}
+.toolbar {
+	background: -moz-linear-gradient(center top , #FFFFFF 0%, #F6F6F6 47%, #C1C1C1 100%) repeat scroll 0 0 transparent;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+	margin: 0;
+	padding: 15px;
+}
+.button {
+	background: -moz-linear-gradient(center top , #2A568E 0%, #053F95 100%) repeat scroll 0 0 transparent;
+	border: 0 solid #CCCCCC;
+	border-radius: 4px 4px 4px 4px;
+	color: #FFFFFF;
+	font-family: 'Helvetica Neue',sans-serif;
+	font-size: 12px;
+	padding: 1px 13px;
+	font-weight: bold;
+	height: 25px;
+	margin-left: 5px;
+	margin-top: 2px;
+	padding: 4px;
+	text-align: left;    		
+}
+
+
+/* TESTING */
+/* @import url('http://opendomo.com/od/odcicons.css'); */
+body{font-family:sans-serif;background-color:#FFF;width:300px;margin-left:auto;margin-right:auto}
+ul{overflow:hidden;margin:auto;padding:5px 0;list-style: none;}
+li{border-top:1pt solid #AAA;padding:14px;list-style: none;}
+#header{margin:auto;border:1px solid #ccc;color:inherit;}
+a{text-decoration:none;color:#000}
+.categories{display:block;width:100%;margin-top:10px;text-align:center}
+.categories a{font-size:15px;cursor:pointer;margin:1px;padding:1px}
+#cat-tools,#cat-map,#cat-help{font-weight: bold;padding:10px;display:inline!important;padding-left:32px}
+li div{display:inline-block;width:180px;margin-left:20px}
+#frm{height:500px;border-style:none;overflow:auto;}
+a[id*='update_']{left:240px;height:36px}
+select{height:22px;font-size:10px;}
+#pag{width:100%;text-align:center;margin-bottom:5px;}
+#pag a{padding: 5px;background-color:#DDD;border:1px solid #BBB;} 
+#pag a:active {background-color:#EEE;}
+#footer{text-align:center;margin:5px;}
+
+#list {
+	margin: 5px;
+}
+
+#body {
+	border-left: 1px solid #CCC;
+	border-right: 1px solid #CCC;
+	height: 400px;
+	overflow: auto;
+}
+.buttons {
+	text-align: center;
+	padding: 10px;
+	margin: 10px;
+}
+.toolbar {
+	border-left: 1px solid #CCC;
+	border-right: 1px solid #CCC;
+	border-bottom: 1px solid #CCC;
+	padding: 10px;
+}
+
+.menuitem {
+	cursor: pointer;
+	background-color: #fff;
+	border-radius: 10px;
+}
+.menuitem:hover {
+	background-color: #ddd;
+}
+
+.backmenu {
+	font-weight: bold;
+	background: url("http://cloud.opendomo.com/odctp/img/back.gif") no-repeat scroll left center transparent;
+	padding-left: 30px;	
+	cursor: pointer;
+	background-color: #fff;
+	border-radius: 10px;
+}
+.backmenu:hover {
+	background-color: #ddd;
+}
+.error {
+	border: 1px solid #D8000C;
+	background-color: #FFBABA;
+	padding: 10px;
+	font-size: small;
+}
+.notice {
+	font-size: small;
+	margin: 0px;
+	border-bottom: 1px solid gray;
+}
+.button {
+	background-color: #2A568E;
+	border-radius: 4px;
+	margin: 5px;
+	padding: 4px;
+	color: #eee;
+	cursor: pointer;
+}
+
+
+li input[type="text"], li input[type="password"] {
+	float: right;
+	margin-right: 0px;
+	width: 100px;
+}
+
+
+a[id*="update_"] {
+	height: 36px;
+	left: 240px;
+	background: url("http://opendomo.com/od/ok.jpg") no-repeat scroll 0 0 transparent;
+	color: transparent;
+	width: 40px;
+}
+
+.OON a, .OOFF a{
+	float: right;
+	width: 97px;
+}	
+	
+.OON a{
+	background: url("http://opendomo.com/od/on.png") no-repeat scroll 0 0 transparent
+}
+.OOFF a{
+	background: url("http://opendomo.com/od/off.png") no-repeat scroll 0 0 transparent
+}
+
+.infopanel {
+	display:none;
+	font-size: 10px;
+	border: 1px solid #BBD;
+	border-radius: 0 0 10px 10px;
+	background-color: #DDF;
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-bottom: 5px;
+}
+.infobutton {
+	float: right;
+}
+
+.typeDO, .typeMO {
+	background: url("http://cloud.opendomo.com/odctp/img/DO.png") no-repeat scroll left center transparent;
+	padding-left: 30px;
+}
+.typeDI {
+	background: url("http://cloud.opendomo.com/odctp/img/DI.png") no-repeat scroll left center transparent;
+	padding-left: 30px;
+}
+.typeAI {
+	background: url("http://cloud.opendomo.com/odctp/img/AI.png") no-repeat scroll left center transparent;
+	padding-left: 30px;
+}
+.typeDV, .typeAV {
+	background: url("http://cloud.opendomo.com/odctp/img/virtual.png") no-repeat scroll left center transparent;
+	padding-left: 30px;
+}
+.typeXX {
+	color: gray;
+	padding-left: 30px;
+}
+/* header with LOGO */
+#header{background: url(http://opendomo.com/od/logo.jpg) no-repeat scroll center top #FFF;border:1px solid #ccc;color:transparent;padding-top:60px;}
+
+/* add and sustract buttons */
+.a{background:url(http://opendomo.com/od/add.png) no-repeat;color:transparent;}
+.s{background:url(http://opendomo.com/od/sub.png) no-repeat;color:transparent;}
+
+.a, .s{
+	display:inline-block;
+	position:relative;
+	width:20px;
+	height:20px;
+	left:auto!important;
+}
+
+
+/* digital input shown as a LED */
+li.ION  a{background:url(http://opendomo.com/od/di_on.png) no-repeat 30px 0px;color:transparent;height:27px;}
+li.IOFF a{background:url(http://opendomo.com/od/di_off.png) no-repeat 30px 0px;color:transparent;height:27px;}
+
+/* digital output acts like a switch */
+li.OON  a{background:url(http://opendomo.com/od/on.png) no-repeat;color:transparent;height:27px;}
+li.OOFF a{background:url(http://opendomo.com/od/off.png) no-repeat;color:transparent;height:27px;} 
+
+/* analog input is just a box */
+li.AI   a{border:1px solid gray; text-align:right;}
+
+/* analog output is a box with plus/minus */
+li.AO div{
+	display:inline-block;
+	position: absolute;
+	left: 125px;
+	padding: 5px;
+	margin:0px!important;
+}
+li.AO   span{display:inline-block;width:100px; border:1px solid gray; text-align:right;}
+
+/* toolbar */
+#cat-tools {background:url(http://opendomo.com/od/eines.png) no-repeat;}
+#cat-map {background:url(http://opendomo.com/od/planell.png) no-repeat;}
+#cat-help {background:url(http://opendomo.com/od/help.png) no-repeat;}
+
+#cat-tools, #cat-map, #cat-help {
+	display: inline !important;
+	padding: 10px 10px 10px 32px;
+	background-position: 4px 4px;
+}
+
+/* timers */
+a[id*='update_'] {
+	background:url(http://opendomo.com/od/ok.jpg) no-repeat;color:transparent;width:40px;
+} 
+
+li input[type='text']{
+	width: 150px;
+	float:right;
+	margin-right: 50px;
+}
+
+iframe {
+	height:auto;
+}
