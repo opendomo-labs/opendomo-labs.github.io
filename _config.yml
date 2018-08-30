@@ -1,5 +1,5 @@
 # SITE CONFIGURATION
-baseurl: "" # the subpath of your site, e.g. /blog/
+baseurl: "/odctp/" # the subpath of your site, e.g. /blog/
 url: "http://labs.opendomo.com" # the base hostname & protocol for your site
 
 # THEME-SPECIFIC CONFIGURATION
