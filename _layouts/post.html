@@ -1,6 +1,7 @@
 ---
 layout: default
 ---
+<!--
 <article {% if page.feature-img %}class="feature-image"{% endif %}>
   <header style="background-image: url('{{ site.baseurl }}/{{ page.feature-img }}')">
     <h1 class="title">{{ page.title }}</h1>
@@ -10,8 +11,10 @@ layout: default
   </header>
   <section class="post-content">{{ content }}</section>
 </article>
+-->
 
 <!-- Post navigation -->
+<!--
 {% if site.theme_settings.post_navigation %}
 <div id="post-nav">
     {% if page.previous.url %}
@@ -32,17 +35,22 @@ layout: default
     {% endif %}
 </div>
 {% endif %}
+-->
 
 <!-- Disqus -->
+<!--
 {% if site.theme_settings.disqus_shortname %}
 <div class="comments">
   {% include disqus.html %}
 </div>
 {% endif %}
+-->
 
 <!-- Muut -->
+<!--
 {% if site.theme_settings.muut_community_name %}
 <div class="comments">
   {% include muut.html %}
 </div>
 {% endif %}
+-->
