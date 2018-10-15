@@ -83,7 +83,7 @@ select{height:22px;font-size:10px;}
 
 .backmenu {
 	font-weight: bold;
-	background: url("img/back.gif") no-repeat scroll left center transparent;
+	background: url("http://cloud.opendomo.com/img/back.gif") no-repeat scroll left center transparent;
 	padding-left: 30px;	
 	cursor: pointer;
 	background-color: #fff;
@@ -123,7 +123,7 @@ li input[type="text"], li input[type="password"] {
 a[id*="update_"] {
 	height: 36px;
 	left: 240px;
-	background: url("ok.jpg") no-repeat scroll 0 0 transparent;
+	background: url("http://cloud.opendomo.com/ok.jpg") no-repeat scroll 0 0 transparent;
 	color: transparent;
 	width: 40px;
 }
@@ -134,10 +134,10 @@ a[id*="update_"] {
 }	
 	
 .OON a{
-	background: url("on.png") no-repeat scroll 0 0 transparent
+	background: url("http://cloud.opendomo.com/on.png") no-repeat scroll 0 0 transparent
 }
 .OOFF a{
-	background: url("off.png") no-repeat scroll 0 0 transparent
+	background: url("http://cloud.opendomo.com/off.png") no-repeat scroll 0 0 transparent
 }
 
 .infopanel {
@@ -155,19 +155,19 @@ a[id*="update_"] {
 }
 
 .typeDO, .typeMO {
-	background: url("img/DO.png") no-repeat scroll left center transparent;
+	background: url("http://cloud.opendomo.com/img/DO.png") no-repeat scroll left center transparent;
 	padding-left: 30px;
 }
 .typeDI {
-	background: url("img/DI.png") no-repeat scroll left center transparent;
+	background: url("http://cloud.opendomo.com/img/DI.png") no-repeat scroll left center transparent;
 	padding-left: 30px;
 }
 .typeAI {
-	background: url("img/AI.png") no-repeat scroll left center transparent;
+	background: url("http://cloud.opendomo.com/img/AI.png") no-repeat scroll left center transparent;
 	padding-left: 30px;
 }
 .typeDV, .typeAV {
-	background: url("img/virtual.png") no-repeat scroll left center transparent;
+	background: url("http://cloud.opendomo.com/img/virtual.png") no-repeat scroll left center transparent;
 	padding-left: 30px;
 }
 .typeXX {
