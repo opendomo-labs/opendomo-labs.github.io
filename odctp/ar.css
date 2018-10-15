@@ -1,5 +1,5 @@
 @import url('http://cloud.opendomo.com/odctp/odc.css');
-/*@import url('http://opendomo.com/od/style.css'); */
+/*@import url('style.css'); */
 ul {
 	margin-left: auto;
 	margin-right: auto;
@@ -21,12 +21,12 @@ ul {
 }
 
 /* digital input shown as a LED */
-.DI a.ON  {background:url(http://opendomo.com/od/di_on.png) no-repeat 30px 0px;color:transparent;height:27px;}
-.DI a.OFF {background:url(http://opendomo.com/od/di_off.png) no-repeat 30px 0px;color:transparent;height:27px;}
+.DI a.ON  {background:url(di_on.png) no-repeat 30px 0px;color:transparent;height:27px;}
+.DI a.OFF {background:url(di_off.png) no-repeat 30px 0px;color:transparent;height:27px;}
 
 /* digital output acts like a switch */
-.DO a.ON  {background:url(http://opendomo.com/od/on.png) no-repeat;color:transparent;height:27px;}
-.DO a.OFF {background:url(http://opendomo.com/od/off.png) no-repeat;color:transparent;height:27px;} 
+.DO a.ON  {background:url(on.png) no-repeat;color:transparent;height:27px;}
+.DO a.OFF {background:url(off.png) no-repeat;color:transparent;height:27px;} 
 
 /* analog input is just a box */
 .AI   a{border:1px solid gray; text-align:right;}
