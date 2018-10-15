@@ -1963,19 +1963,19 @@ function createCheckboxField(id,value) {
 	var check = document.createElement("img");
 	check.setAttribute("title",id);
 	if (value!="false" && value != false) {
-		check.setAttribute("src","on.png");
+		check.setAttribute("src","http://cloud.opendomo.com/odctp/on.png");
 	} else {
-		check.setAttribute("src","off.png");
+		check.setAttribute("src","http://cloud.opendomo.com/odctp/off.png");
 	}
 
 	check.onclick = function(){
 		var d = document.getElementById(this.title);
 		if (d.value!="false") {
 			d.value=false;
-			this.setAttribute("src","off.png");
+			this.setAttribute("src","http://cloud.opendomo.com/odctp/off.png");
 		}else{
 			d.value=true;
-			this.setAttribute("src","on.png");
+			this.setAttribute("src","http://cloud.opendomo.com/odctp/on.png");
 		}
 	}
 	var a = document.createElement("a");
