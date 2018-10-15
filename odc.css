@@ -1,0 +1,213 @@
+/* header with LOGO */
+#header{background: url(logo.jpg) no-repeat scroll center top #FFF;border:1px solid #ccc;color:transparent;padding-top:60px;}
+
+#cat-tools {background:url(eines.png) no-repeat;}
+#cat-map {background:url(planell.png) no-repeat;}
+
+
+/*@import url('odcicons.css'); */
+body{font-family:sans-serif;background-color:#FFF;width:300px;margin-left:auto;margin-right:auto}
+ul{overflow:hidden;margin:3px;padding:5px 0}
+li{border-bottom:1pt solid #AAA;padding:14px}
+#header{margin:auto;border:1px solid #ccc;color:inherit;}
+a{text-decoration:none;color:#000;height:27px;}
+.categories{display:block;width:100%;margin-top:10px;text-align:center}
+#cat-tools,#cat-map{font-weight: bold;padding:10px;display:inline!important;padding-left:32px}
+.categories a{font-size:15px;cursor:pointer;margin:1px;padding:1px}
+li div{display:inline-block;width:180px;margin-left:20px}
+/*#frm{height:500px;border-style:none;margin:10px;overflow:auto;} */
+a[id*='update_']{left:240px;height:36px}
+select{
+	height:27px;
+	font-size:10px;
+	min-width:97px;
+}
+#cat-help {display:none;}
+li a{float:right;}
+#pag{width:100%;text-align:center;margin-bottom:5px;}
+#pag a{padding: 5px;background-color:#DDD;border:1px solid #BBB;} 
+#pag a:active {background-color:#EEE;}
+#footer{text-align:center;margin:5px;}
+
+#list {
+	margin: 5px;
+}
+
+#body {
+	border-left: 1px solid #CCC;
+	border-right: 1px solid #CCC;
+	height: 400px;
+	overflow: auto;
+}
+.buttons {
+	text-align: center;
+	padding: 8px;
+	margin: 10px;
+}
+.toolbar {
+	border-left: 1px solid #CCC;
+	border-right: 1px solid #CCC;
+	border-bottom: 1px solid #CCC;
+	padding: 10px;
+}
+
+.menuitem {
+	cursor: pointer;
+	background-color: #fff;
+	border-radius: 10px;
+}
+.menuitem:hover {
+	background-color: #ddd;
+}
+
+.backmenu {
+	font-weight: bold;
+	background: url("http://cloud.opendomo.com/odctp/img/back.gif") no-repeat scroll left center transparent;
+	padding-left: 30px;	
+	cursor: pointer;
+	background-color: #fff;
+	border-radius: 10px;
+}
+.option {
+	background: url("http://cloud.opendomo.com/odctp/img/circle.png") no-repeat scroll left center transparent;
+	padding-left: 30px;	
+	cursor: pointer;
+	background-color: #fff;
+	border-radius: 10px;
+}
+.optionsel {
+	font-weight: bold;
+	background: url("http://cloud.opendomo.com/odctp/img/circle_sel.png") no-repeat scroll left center transparent;
+	padding-left: 30px;	
+	cursor: pointer;
+	background-color: #fff;
+	border-radius: 10px;
+}
+input[type=readonly] {
+	width: 150px;
+	margin-left: 10px;
+}
+.backmenu:hover {
+	background-color: #ddd;
+}
+.error {
+	border: 1px solid #D8000C;
+	background-color: #FFBABA;
+	padding: 10px;
+	font-size: small;
+}
+.notice {
+	font-size: small;
+	margin: 0px;
+	border-bottom: 1px solid gray;
+}
+.button {
+	background-color: #2A568E;
+	border-radius: 4px;
+	margin: 5px;
+	padding: 4px;
+	color: #eee;
+	cursor: pointer;
+}
+
+
+li input[type="text"], 
+li input[type="number"], 
+li input[type="password"] {
+	float: right;
+	margin-right: 0px;
+	width: 100px;
+}
+
+
+a[id*="update_"] {
+	height: 36px;
+	left: 240px;
+	background: url("http://cloud.opendomo.com/odctp/ok.jpg") no-repeat scroll 0 0 transparent;
+	color: transparent;
+	width: 40px;
+}
+
+.OON a, .OOFF a{
+	float: right;
+	width: 97px;
+	text-indent: -9999;
+}	
+	
+.OON a{
+	background: url("http://cloud.opendomo.com/odctp/on.png") no-repeat scroll 0 0 transparent
+}
+.OOFF a{
+	background: url("http://cloud.opendomo.com/odctp/off.png") no-repeat scroll 0 0 transparent
+}
+
+.infopanel {
+	display:none;
+	font-size: 10px;
+	border: 1px solid #BBD;
+	border-radius: 0 0 10px 10px;
+	background-color: #DDF;
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-bottom: 5px;
+}
+.infobutton {
+	float: right;
+}
+
+.typeDO, .typeMO {
+	background: url("http://cloud.opendomo.com/odctp/img/DO.png") no-repeat scroll left center transparent;
+	padding-left: 30px;
+}
+.typeDI {
+	background: url("http://cloud.opendomo.com/odctp/img/DI.png") no-repeat scroll left center transparent;
+	padding-left: 30px;
+}
+.typeAI {
+	background: url("http://cloud.opendomo.com/odctp/img/AI.png") no-repeat scroll left center transparent;
+	padding-left: 30px;
+}
+.typeDV, .typeAV {
+	background: url("http://cloud.opendomo.com/odctp/img/virtual.png") no-repeat scroll left center transparent;
+	padding-left: 30px;
+}
+.typeXX, .typeAX, .typeVX, .typeDX {
+	color: gray;
+	padding-left: 30px;
+}
+
+#progress {
+	width: 100%;
+}
+
+/** DIALOGS **/
+.alertit {
+	height: 28px;
+	background-color: lightgray;
+}
+#alertbox p {
+	margin: 10px;
+}
+#alertbox {
+	position: absolute;
+	top: 150px;
+	width: 300px;
+	height: 150px;
+	margin: auto;
+	background-color: #FFF;
+	border: 2px solid #808080;
+	border-radius: 10px;
+	overflow: hidden;
+	box-shadow: 0 0 25px 5px #999;
+}
+#alertbgnd {
+	position: fixed;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	background-color: #808080;
+	opacity: 0.5;
+}
+
+
