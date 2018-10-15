@@ -175,11 +175,11 @@ a[id*="update_"] {
 	padding-left: 30px;
 }
 /* header with LOGO */
-#header{background: url(logo.jpg) no-repeat scroll center top #FFF;border:1px solid #ccc;color:transparent;padding-top:60px;}
+#header{background: url(http://cloud.opendomo.com/odctp/logo.jpg) no-repeat scroll center top #FFF;border:1px solid #ccc;color:transparent;padding-top:60px;}
 
 /* add and sustract buttons */
-.a{background:url(add.png) no-repeat;color:transparent;}
-.s{background:url(sub.png) no-repeat;color:transparent;}
+.a{background:url(http://cloud.opendomo.com/odctp/add.png) no-repeat;color:transparent;}
+.s{background:url(http://cloud.opendomo.com/odctp/sub.png) no-repeat;color:transparent;}
 
 .a, .s{
 	display:inline-block;
@@ -191,12 +191,12 @@ a[id*="update_"] {
 
 
 /* digital input shown as a LED */
-li.ION  a{background:url(di_on.png) no-repeat 30px 0px;color:transparent;height:27px;}
-li.IOFF a{background:url(di_off.png) no-repeat 30px 0px;color:transparent;height:27px;}
+li.ION  a{background:url(http://cloud.opendomo.com/odctp/di_on.png) no-repeat 30px 0px;color:transparent;height:27px;}
+li.IOFF a{background:url(http://cloud.opendomo.com/odctp/di_off.png) no-repeat 30px 0px;color:transparent;height:27px;}
 
 /* digital output acts like a switch */
-li.OON  a{background:url(on.png) no-repeat;color:transparent;height:27px;}
-li.OOFF a{background:url(off.png) no-repeat;color:transparent;height:27px;} 
+li.OON  a{background:url(http://cloud.opendomo.com/odctp/on.png) no-repeat;color:transparent;height:27px;}
+li.OOFF a{background:url(http://cloud.opendomo.com/odctp/off.png) no-repeat;color:transparent;height:27px;} 
 
 /* analog input is just a box */
 li.AI   a{border:1px solid gray; text-align:right;}
@@ -212,9 +212,9 @@ li.AO div{
 li.AO   span{display:inline-block;width:100px; border:1px solid gray; text-align:right;}
 
 /* toolbar */
-#cat-tools {background:url(eines.png) no-repeat;}
-#cat-map {background:url(planell.png) no-repeat;}
-#cat-help {background:url(help.png) no-repeat;}
+#cat-tools {background:url(http://cloud.opendomo.com/odctp/eines.png) no-repeat;}
+#cat-map {background:url(http://cloud.opendomo.com/odctp/planell.png) no-repeat;}
+#cat-help {background:url(http://cloud.opendomo.com/odctp/help.png) no-repeat;}
 
 #cat-tools, #cat-map, #cat-help {
 	display: inline !important;
@@ -224,7 +224,7 @@ li.AO   span{display:inline-block;width:100px; border:1px solid gray; text-align
 
 /* timers */
 a[id*='update_'] {
-	background:url(ok.jpg) no-repeat;color:transparent;width:40px;
+	background:url(http://cloud.opendomo.com/odctp/ok.jpg) no-repeat;color:transparent;width:40px;
 } 
 
 li input[type='text']{

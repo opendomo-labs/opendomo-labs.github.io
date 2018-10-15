@@ -1,8 +1,8 @@
 /* header with LOGO */
-#header{background: url(logo.jpg) no-repeat scroll center top #FFF;border:1px solid #ccc;color:transparent;padding-top:60px;}
+#header{background: url(http://cloud.opendomo.com/odctp/logo.jpg) no-repeat scroll center top #FFF;border:1px solid #ccc;color:transparent;padding-top:60px;}
 
-#cat-tools {background:url(eines.png) no-repeat;}
-#cat-map {background:url(planell.png) no-repeat;}
+#cat-tools {background:url(http://cloud.opendomo.com/odctp/eines.png) no-repeat;}
+#cat-map {background:url(http://cloud.opendomo.com/odctp/planell.png) no-repeat;}
 
 
 /*@import url('odcicons.css'); */
