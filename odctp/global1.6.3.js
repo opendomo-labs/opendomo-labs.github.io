@@ -79,6 +79,7 @@ function add_line(text, level) {
 }
 
 function add_error_line(command, text, level) {
+    /*
 	var log = document.getElementById("list");
 	//log = document.body;
 	if (log) {
@@ -92,6 +93,7 @@ function add_error_line(command, text, level) {
 		list.appendChild(link);
 		log.appendChild(list);
 	}
+    */
 }
 
 
@@ -2015,7 +2017,21 @@ addEventListener("load",function(){
 		fileref.setAttribute("href", "http://cloud.opendomo.com/odctp/odc.css");
 		document.getElementsByTagName("head")[0].appendChild(fileref);
 
-		loadjscssfile("http://cloud.opendomo.com/odctp/index.php?id="+document.title, "js");
+		//loadjscssfile("http://cloud.opendomo.com/odctp/index.php?id="+document.title, "js");
+
+		var code = "<div id='header'><div class='categories'>";
+        code = code + "<a id='cat-map' href='http://" + document.location.hostname + ":" + (document.location.port-1) + "/hme'>Home</a>";
+        code = code + "<a id='cat-tools' href='http://" + document.location.hostname + ":" + (document.location.port-1) + "/cnf'>Config</a>";           
+        code = code + "</div>";
+        code = code + "<div id='frm'><br/><center>Loading...</center></div>";
+        code = code + "</div>";
+        code = code + "<div id='footer'></div>";
+        document.body.innerHTML = code;
+        var totalok=0;
+        loadODControlData();
+        setTimeout(function(){loadMenu()},500); 
+
+
 		document.title = "Log window";
 		//loadMenu();
 	}

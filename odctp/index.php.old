@@ -1,0 +1,91 @@
+<?php
+	require("../check.php");
+	require("nodb.php");
+
+	$link = mysql_connect('localhost', 'dlerch_templates', 'l4st3mpl4t3s');
+	if (!$link) die('Could not connect: ' . mysql_error());
+
+	$db = mysql_select_db('dlerch_templates');
+	if (!$db) die('Wrong DB');
+
+	$res = mysql_query("SELECT * FROM user_profile WHERE id = ".$_SESSION['user_id']);
+	if (mysql_num_rows($res)!=1) {
+		header("Location: register.php");
+	}
+
+
+	$id=isset($_REQUEST['ID'])?intval($_REQUEST['ID']):"0";
+	$ip=isset($_REQUEST['IP'])?$_REQUEST['IP']:"169.254.0.1";
+	
+	if ($id)
+	{
+		foreach ($templates as $temp) 
+		{
+			if ($temp['id'] ==$id) 
+			{
+				header('Content-type: text/javascript');
+				echo "add_line('Cargando ".$temp['name'].". Por favor, espere.','notice');\n";
+				echo "send_command('def');\n";
+				$cmds = preg_split('/;/', $temp['temp']);
+				foreach ($cmds as $cmd) 
+				{
+					echo "send_command('".$cmd."');\n";
+				}
+				echo "send_command('sav');\n";				
+				echo "add_line('Finalizado','notice');\n";
+				echo "add_toolbar();\n";
+			} 
+		}
+	} 
+	else
+	{
+	$title="ODControl templates";
+header('Content-type: text/html; charset=UTF-8');
+echo "<html>
+<head><title>$title</title>
+<meta http-equiv='Content-Type' content='text/html; charset=utf-8'>
+<link rel='stylesheet' type='text/css' media='screen' href='/css/blue_corp/960.css' />
+<link rel='stylesheet' type='text/css' media='screen' href='/css/blue_corp/template.css' />
+<link rel='stylesheet' type='text/css' media='screen' href='/css/blue_corp/colour.css' />
+	<script type='text/javascript' src='global.js'></script>
+	<meta http-equiv='Content-Type' content='text/html; charset=utf-8' />
+</head>
+<body>
+	<div id='head'>
+		<div id='bkg_robohead'><img src='http://www.opendomo.com/img/opendomo.png'/>
+		</div></div>	
+	<ul id='navigation'>
+		<li><span><a href='/index.php'>Inicio</a></span>
+	</ul>
+	<div id='content' class='container_16 clearfix'>";
+
+		echo "<div class='grid_3'><div class='box'>
+		<h2>Carga de plantillas</h2>
+		$explanation_text_ip
+		</div></div>\n";
+
+		echo "<div class='grid_5'><div class='box'>";
+		echo "<h2>Plantillas</h2>";
+		echo "<br/><center><form>";
+		echo "<input type='text' name='IP' size='9' value='$ip'/> ";
+		echo "<button type='submit'>Cambiar IP</button>\n";
+		echo "</form></center>\n
+		<ul class='list'>";
+		
+		foreach($templates as $t) {
+			echo "<li>".$t['name']." ";
+			echo "<a href='".$t['url']."' target='wiki' title=\"".$t['desc']."\">";
+			echo "<img src='/images/ico-wiki.png'/></a>";
+			echo "<a href='http://$ip:81/?origin=".$t['id']."' title='Cargar a $ip' 
+				onclick='popupwindow(this.href);return false;'>";
+			echo "<img src='/images/ico-upload.png'/></a>";
+			echo "</li>\n";
+		}
+		echo "</ul></div></div>\n";		
+
+		echo "</div>
+<div id='foot'></div>
+</body></html>\n";
+	}
+
+?>

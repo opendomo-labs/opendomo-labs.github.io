@@ -1,0 +1,147 @@
+@import url('http://cloud.opendomo.com/odctp/odc.css');
+/*@import url('http://opendomo.com/od/style.css'); */
+ul {
+	margin-left: auto;
+	margin-right: auto;
+	padding-bottom: 20px;
+	border: 0 none;
+	background-color: white;
+	overflow:hidden;
+}
+
+#frm {
+	border-left: 1px solid #CCCCCC;
+	border-right:1px solid #CCCCCC;
+	border-bottom: 1px solid #CCCCCC;
+	margin: 0px !important;
+	padding-top: 0px;
+}
+.categories {
+	padding-bottom: 10px;
+}
+
+/* digital input shown as a LED */
+.DI a.ON  {background:url(http://opendomo.com/od/di_on.png) no-repeat 30px 0px;color:transparent;height:27px;}
+.DI a.OFF {background:url(http://opendomo.com/od/di_off.png) no-repeat 30px 0px;color:transparent;height:27px;}
+
+/* digital output acts like a switch */
+.DO a.ON  {background:url(http://opendomo.com/od/on.png) no-repeat;color:transparent;height:27px;}
+.DO a.OFF {background:url(http://opendomo.com/od/off.png) no-repeat;color:transparent;height:27px;} 
+
+/* analog input is just a box */
+.AI   a{border:1px solid gray; text-align:right;}
+
+/* analog output is a box with plus/minus */
+.AO div{
+	display:inline-block;
+	position: absolute;
+	left: 125px;
+	padding: 5px;
+	margin:0px!important;
+}
+.AO   span{display:inline-block;width:100px; border:1px solid gray; text-align:right;}
+
+li, p {
+	list-style: none;
+	border-bottom: 1pt solid #AAA;
+}
+.lst li b {
+	padding-left: 30px;
+	width: 120px;
+	display: table-cell;
+	vertical-align: middle;
+	text-shadow: 1px 1px 0px gray;
+	font-weight: normal;
+}
+.lst li a {
+	background-repeat: no-repeat;
+	display: table-cell;
+	vertical-align: middle;
+	text-align: center;
+	height: 27px;
+	width:100px;
+}
+.lst li .OFF, .lst li .ON {
+	width: 94px;
+}
+.lst .X {
+	display: none;
+}
+
+.slider {
+	display:table-cell;
+	background-image: url(bar.png);
+	background-repeat: no-repeat;
+	background-position: center center;
+	width: 100px;
+	padding-right:10px;
+}
+.slider a {
+	display:inline;
+/*	border:1px solid black; 
+	width: 20px; */
+	padding:0px;
+	margin:0px;
+}
+.slval {
+	font-size:x-small;
+}
+.sl{
+	background-image: url(slider.png);
+	text-indent:-1000px;
+	width:20px!important;
+}
+.un{
+	text-indent:-1000px; 
+	width:10px!important;
+} 
+a {
+	text-decoration: none;
+	color: black;
+}
+.canvas
+{ 
+	width: 300px;
+	margin: 0px;
+	padding: 0px;
+}
+.title 
+{ 
+	font-weight: bold;
+	margin: 0px;
+	padding: 5px;
+	text-shadow: 0px 1px 0px #fff;
+	background-color: #aaa;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#ccc), to(#999));
+}
+
+.screen{ 
+	font-size: 90px;
+	text-align: center;
+	vertical-align: center;
+	text-shadow: 2px 2px 0px gray;
+}
+.help {
+	padding: 5px;
+	font-size: small;
+}
+#ftr
+{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	font-size: small;
+	width: 300px;
+}
+#ftr:after{
+	content: "OpenDomo Services S.L";
+}
+@media screen and (max-device-width: 480px){
+	body{
+		background-color: #B4C3D1;
+		-webkit-text-size-adjust:none;
+		font-family:Helvetica, Arial, Verdana, sans-serif;
+		padding:5px; 
+	}
+}

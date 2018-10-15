@@ -1,0 +1,43 @@
+AVISO IMPORTANTE -- LEA ATENTAMENTE ESTE DOCUMENTO: La presente licencia de uso de los dispositivos de OpenDomo Services S.L. ("LICENCIA") es un acuerdo que rige el uso del software de OpenDomo Services S.L. (OPENDOMO) que se incluye en los dispositivos comercializados por la empresa, incluido el software informático y la documentación adjunta ("SOFTWARE"). El hecho de utilizar el SOFTWARE, implica que usted acepta las condiciones de esta LICENCIA.
+
+CONSIDERACIONES PRELIMINARES
+Para utilizar los productos de OPENDOMO se necesitan dos elementos: el SOFTWARE, el hardware. El SOFTWARE está protegido por leyes y tratados internacionales relativos al derecho de propiedad, y por otras leyes y tratados de propiedad intelectual. El SOFTWARE no se vende, sino que su uso únicamente se autoriza mediante licencia, de estricta conformidad con el presente documento. El hardware se vende y está protegido por varias patentes, pero el presente acuerdo no cubre dicha venta, ya que el hardware no tiene por qué ser vendido necesariamente junto con el SOFTWARE. El presente acuerdo establece únicamente las condiciones de la LICENCIA DEL SOFTWARE.
+
+1. DEFINICIONES
+1.1 Usuario.
+El Usuario es el particular o la entidad comercial que adquiere el HARDWARE o usa el SOFTWARE.
+
+2. CONCESIÓN DE LA LICENCIA
+2.1 Derechos y limitaciones de la concesión.
+OPENDOMO concede al Usuario el derecho no exclusivo e intransferible de utilizar el SOFTWARE, teniendo en cuenta las limitaciones siguientes:
+
+2.1.1 Derechos.
+El Usuario podrá utilizar el SOFTWARE entregado dentro del producto únicamente dentro del mismo, y no realizará ninguna copia del SOFTWARE.
+
+2.1.2 Limitaciones.
+Queda prohibida la ingeniería inversa. El Usuario no podrá aplicar técnicas de ingeniería inversa, descompilar o desensamblar el SOFTWARE, ni realizar cualquier otra operación que tienda a descubrir el código fuente.
+
+Queda prohibida la separación de los componentes. Se autoriza el uso del SOFTWARE como un producto único.
+
+Queda prohibido el arrendamiento. El Usuario no arrendará ni alquilará el SOFTWARE a otra persona.
+
+El Usuario no podrá revender el producto si no dispone de permiso expreso para hacerlo (mediante un contrato de distribución con OPENDOMO).
+
+3. ANULACIÓN
+La licencia quedará automáticamente anulada si el Usuario no cumple las condiciones establecidas. En tal caso, el Usuario destruirá todas las copias del SOFTWARE y sus componentes.
+
+4. DERECHOS DE PROPIEDAD
+Todos los derechos de propiedad intelectual del SOFTWARE (incluidas imágenes, fotografías, animación, vídeo, audio, música, texto y otros elementos que forman parte del SOFTWARE), la documentación adjunta y todas las copias del SOFTWARE corresponden a OPENDOMO o a sus proveedores. El SOFTWARE está protegido por las leyes y tratados internacionales relativos al derecho de propiedad. Por consiguiente, el Usuario deberá utilizar el SOFTWARE como cualquier otro material protegido por las leyes de propiedad intelectual, salvo que se disponga lo contrario en virtud de la presente LICENCIA, y con la excepción de que podrá realizar una copia del SOFTWARE únicamente como copia de seguridad o archivo.
+
+5. LEGISLACIÓN VIGENTE
+Se tendrá en cuenta que el presente acuerdo se ha establecido y debe interpretarse de conformidad con la legislación del España.
+
+6. EXENCIÓN DE GARANTÍAS Y LIMITACIÓN DE RESPONSABILIDADES
+6.1 No existe garantía alguna.
+EN LA MEDIDA EN QUE LO PERMITA LA LEGISLACIÓN APLICABLE, EL SOFTWARE SE FACILITA "TAL CUAL" Y NI OPENDOMO NI SUS PROVEEDORES OFRECEN NINGUNA GARANTÍA, EXPLÍCITA NI IMPLÍCITA, INCLUYENDO LAS GARANTÍAS IMPLÍCITAS DE COMERCIABILIDAD Y ADECUACIÓN A UN FIN PARTICULAR.
+
+6.2 No existe responsabilidad alguna sobre daños y perjuicios.
+EN LA MEDIDA EN QUE LO PERMITA LA LEGISLACIÓN APLICABLE, EN NINGÚN CASO SE PODRÁ CONSIDERAR A OPENDOMO O SUS PROVEEDORES RESPONSABLES DE CUALESQUIERA DANOS YA SEAN ESPECIALES, DIRECTOS O INDIRECTOS (INCLUIDOS, A TÍTULO INFORMATIVO PERO NO LIMITATIVO, LOS DE LUCRO CESANTE, INTERRUPCIÓN DE LAS ACTIVIDADES COMERCIALES O PÉRDIDA DE INFORMACIÓN) DERIVADOS DEL USO O LA IMPOSIBILIDAD DE USO DE LOS MATERIALES, INCLUSO AUNQUE OPENDOMO HAYA RECIBIDO AVISO DE LA POSIBILIDAD DE ESTE TIPO DE DANOS.
+
+7. OTRAS CONSIDERACIONES
+La Convención de las Naciones Unidas sobre los contratos de venta internacional de mercancías queda expresamente excluida. Si alguna disposición de la presente LICENCIA no es conforme a la legislación o no se puede aplicar en virtud de la misma, dicha disposición será limitada en la medida necesaria para que sea conforme a la legislación y sea totalmente aplicable en virtud de la misma. El presente acuerdo es el acuerdo final, completo y exclusivo entre las partes sobre el asunto principal que se ha tratado, y reemplaza a todos los acuerdos o disposiciones anteriores o actuales que versen sobre el asunto principal, independientemente de que sean orales o escritas. El Usuario se compromete a no enviar, transferir o exportar el SOFTWARE a ningún país, ni utilizar el SOFTWARE de ningún modo. Sólo se podrá modificar la presente licencia mediante un escrito firmado por una persona autorizada por OPENDOMO.						

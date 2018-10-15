@@ -1,0 +1,501 @@
+
+@media screen and (max-width:480px) {
+	#list {
+		display: none;
+	}
+	#helpfrm {
+		display: none;
+	}	
+	#frm {
+		width: 100%;
+	}
+	.infobutton {display: none;}
+	.helpbutton {display: none;}
+
+}
+@media screen and (min-width: 480px) and (max-width:770px){
+	#frm {
+		width: 400px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	#list {
+		display: none;
+	}
+	#helpfrm {
+		display: none;
+	}
+	.infobutton {display: none;}
+	.helpbutton {display: none;}
+}
+@media screen and (min-width:770px) {
+	#main {
+		float: left;
+		width: 400px;
+		height: 99%;
+		overflow-y: scroll;
+	}
+
+	#helpfrm {
+		display: block;
+		margin-left: 402px;
+		height: 49%;
+		border: 1px solid lightgray;
+	}
+
+	#list {
+		display: block;
+		margin-left: 402px;
+		height: 50%;
+		width: auto;
+		margin-top: -1px;
+		border: 1px solid lightgray;
+		overflow-y: scroll;
+	}
+	.infobutton {
+		display: inline;
+	}
+}
+#list {display: none;}
+#helpfrm, #list {height: 99%;}
+body {background-color: #000;
+background-image:url("http://es.opendomo.org/files/garland_logo.png");
+background-repeat: no-repeat;
+background-position: center center;}
+
+iframe {
+	width: 100%;
+	height: 100%;
+	border: none;
+}
+
+.ui-loader {
+	background-color: white;
+}
+.popover .tour-buttons {
+	text-align: right;
+}
+body{
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+body>div.ui-page {
+	height: 99.9%!important;
+}
+
+label {
+	width: 80%;
+	display: inline-block;
+	text-overflow: ellipsis;
+	overflow: hidden;
+}
+
+pre {
+	border: 1px solid #ccc;
+}
+
+pre,
+#qunit-header {
+	margin-left: 10px;
+	margin-right: 10px;
+	padding: 10px;
+	margin-bottom: 10px;
+	border-radius: 10px;
+	z-index: 1;
+}
+
+#qunit-header:before,
+pre:before{
+	border: 1px solid #000;
+	display: block;
+	width: 42px;
+	height: 42px;
+	content: "";
+	margin-left: 30px;
+	transform: rotate(7deg);
+	-webkit-transform: rotate(7deg);
+	margin-bottom: -10px;
+	z-index: -1;
+	border-radius: 10px;
+	position: relative;
+	top: 0px;
+	background-color: #D3D3D3;
+}
+
+
+
+
+/* header with LOGO */
+#header{
+   background-image: -webkit-gradient(linear, left top, left bottom, from( #FFF /*{c-bup-background-start}*/), to( #F1F1F1 /*{c-bup-background-end}*/));
+   background-image: -webkit-linear-gradient( #FFF /*{c-bup-background-start}*/, #F1F1F1 /*{c-bup-background-end}*/);
+   background-image: -moz-linear-gradient( #FFF /*{c-bup-background-start}*/, #F1F1F1 /*{c-bup-background-end}*/);
+   background-image: -ms-linear-gradient( #FFF /*{c-bup-background-start}*/, #F1F1F1 /*{c-bup-background-end}*/);
+   background-image: -o-linear-gradient( #FFF /*{c-bup-background-start}*/, #F1F1F1 /*{c-bup-background-end}*/);
+   background-image: linear-gradient( #FFF /*{c-bup-background-start}*/, #F1F1F1 /*{c-bup-background-end}*/);
+}
+#header .categories {
+	background: url(/images/logo-od.png) no-repeat scroll center top;
+	color:transparent;
+	padding-top:60px;
+	padding-bottom: 5px;
+	border-bottom: 1px solid #ccc;
+}
+#main {
+	border:1px solid #ccc;
+}
+
+
+/* add and sustract buttons */
+.a{background:url(img/add.png) no-repeat;color:transparent;}
+.s{background:url(img/sub.png) no-repeat;color:transparent;}
+
+.a, .s{
+	display:inline-block;
+	position:relative;
+	width:20px;
+	height:20px;
+	left:auto!important;
+}
+li.OON a, li.OOFF a{ text-indent:-9999px;}
+
+/* digital input shown as a LED */
+li.ION  a{background:url(img/di_on.png) no-repeat 30px 0px;color:transparent;height:27px;}
+li.IOFF a{background:url(img/di_off.png) no-repeat 30px 0px;color:transparent;height:27px;}
+
+/* digital output acts like a switch */
+li.OON  a{background:url(img/on.png) no-repeat;color:transparent;height:27px;}
+li.OOFF a{background:url(img/off.png) no-repeat;color:transparent;height:27px;} 
+
+/* analog input is just a box */
+li.AI   a{border:1px solid gray; text-align:right;}
+
+/* analog output is a box with plus/minus */
+li.AO div{
+	display:inline-block;
+	position: absolute;
+	left: 125px;
+	padding: 5px;
+	margin:0px!important;
+}
+li.AO   span{display:inline-block;width:100px; border:1px solid gray; text-align:right;}
+
+/* toolbar  */
+#cat-tools {background:url(eines.png) no-repeat;}
+#cat-map {background:url(planell.png) no-repeat;}
+#cat-help {background:url(help.png) no-repeat;}
+ 
+#cat-tools, #cat-map, #cat-help {
+	padding-left: 32px;
+}
+
+/* timers */
+a[id*='update_'] {
+	background:url(ok.jpg) no-repeat;color:transparent;width:40px;
+} 
+
+li input[type='text']{
+	width: 150px;
+	float:right;
+	margin-right: 50px;
+}
+
+
+.menuitem {
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.helpbutton {
+  width: 16px!important;
+  height: 16px;
+  display: inline-block;
+  background-image:url("img/exp.png");
+  background-repeat: no-repeat;
+  min-width: 16px!important;
+}
+
+
+ul{overflow:hidden;margin:3px;padding:5px 0}
+li{border-bottom:1pt solid #AAA;padding:14px}
+a{text-decoration:none;color:#000}
+.categories{display:block;width:100%;text-align:center}
+.categories a{font-size:15px;cursor:pointer;margin:1px;padding:1px}
+li div{display:inline-block;width:180px;margin-left:20px}
+/*#frm{height:500px;border-style:none;margin:10px;overflow:auto;} */
+
+
+
+.menuitem {
+   background-image: -webkit-gradient(linear, left top, left bottom, from( #FFF /*{c-bup-background-start}*/), to( #F1F1F1 /*{c-bup-background-end}*/));
+   background-image: -webkit-linear-gradient( #FFF /*{c-bup-background-start}*/, #F1F1F1 /*{c-bup-background-end}*/);
+   background-image: -moz-linear-gradient( #FFF /*{c-bup-background-start}*/, #F1F1F1 /*{c-bup-background-end}*/);
+   background-image: -ms-linear-gradient( #FFF /*{c-bup-background-start}*/, #F1F1F1 /*{c-bup-background-end}*/);
+   background-image: -o-linear-gradient( #FFF /*{c-bup-background-start}*/, #F1F1F1 /*{c-bup-background-end}*/);
+   background-image: linear-gradient( #FFF /*{c-bup-background-start}*/, #F1F1F1 /*{c-bup-background-end}*/);
+}
+
+
+a[id*='update_']{left:240px;height:36px}
+select{
+	height:27px;
+	font-size:10px;
+}
+#pag{width:100%;text-align:center;margin-bottom:5px;}
+#pag a{padding: 5px;background-color:#DDD;border:1px solid #BBB;} 
+#pag a:active {background-color:#EEE;}
+#footer{text-align:center;margin:5px;}
+
+
+#body {
+	border-left: 1px solid #CCC;
+	border-right: 1px solid #CCC;
+	height: 400px;
+	overflow: auto;
+}
+.buttons {
+	text-align: center;
+	padding: 8px;
+	margin: 10px;
+}
+.toolbar {
+	border-left: 1px solid #CCC;
+	border-right: 1px solid #CCC;
+	border-bottom: 1px solid #CCC;
+	padding: 10px;
+}
+
+.menuitem {
+	cursor: pointer;
+	text-overflow: ellipsis;
+	padding-right: 50px;
+}
+.menuitem:hover {
+	background-color: #ddd;
+}
+
+.backmenu {
+	font-weight: bold;
+	background: url("http://cloud.opendomo.com/odctp/img/back.gif") no-repeat scroll left center transparent;
+	padding-left: 30px;	
+	cursor: pointer;
+	background-color: #fff;
+}
+.option {
+	background: url("http://cloud.opendomo.com/odctp/img/circle.png") no-repeat scroll left center transparent;
+	padding-left: 30px;	
+	cursor: pointer;
+	background-color: #fff;
+	border-radius: 10px;
+}
+.optionsel {
+	font-weight: bold;
+	background: url("http://cloud.opendomo.com/odctp/img/circle_sel.png") no-repeat scroll left center transparent;
+	padding-left: 30px;	
+	cursor: pointer;
+	background-color: #fff;
+	border-radius: 10px;
+}
+input[type=readonly] {
+	width: 150px;
+	margin-left: 10px;
+}
+.backmenu:hover, .menuitem:hover {
+	background-color: #ddd;
+}
+.error {
+	border: 1px solid #D8000C;
+	background-color: #FFBABA;
+	padding: 1px;
+	margin: 1px;
+	font-size: small;
+}
+.notice {
+	font-size: small;
+	margin: 1px;
+	padding: 1px;
+	border-bottom: 1px solid gray;
+}
+.button {
+	background-color: #2A568E;
+	border-radius: 4px;
+	margin: 5px;
+	padding: 4px;
+	color: #eee;
+	cursor: pointer;
+}
+
+
+li input[type="text"], li input[type="password"] {
+	float: right;
+	margin-right: 0px;
+	width: 100px;
+}
+
+
+a[id*="update_"] {
+	height: 36px;
+	left: 240px;
+	background: url("ok.jpg") no-repeat scroll 0 0 transparent;
+	color: transparent;
+	width: 40px;
+}
+
+.OON a, .OOFF a, .menuitem a{
+	float: right;
+	min-width: 97px;
+}	
+	
+.OON a{
+	background: url("on.png") no-repeat scroll 0 0 transparent
+}
+.OOFF a{
+	background: url("off.png") no-repeat scroll 0 0 transparent
+}
+
+.infopanel {
+	display:none;
+	font-size: 10px;
+	border: 1px solid #BBD;
+	border-radius: 0 0 10px 10px;
+	background-color: #DDF;
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-bottom: 5px;
+}
+.infobutton {
+	float: right;
+}
+
+.typeDO, .typeMO {
+	background: url("http://cloud.opendomo.com/odctp/img/DO.png") no-repeat scroll left center transparent;
+	padding-left: 30px;
+}
+.typeDI {
+	background: url("http://cloud.opendomo.com/odctp/img/DI.png") no-repeat scroll left center transparent;
+	padding-left: 30px;
+}
+.typeAI {
+	background: url("http://cloud.opendomo.com/odctp/img/AI.png") no-repeat scroll left center transparent;
+	padding-left: 30px;
+}
+.typeDV, .typeAV {
+	background: url("http://cloud.opendomo.com/odctp/img/virtual.png") no-repeat scroll left center transparent;
+	padding-left: 30px;
+}
+.typeXX {
+	color: gray;
+	padding-left: 30px;
+}
+
+
+/* Help */
+.popover {
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 1010;
+	display: none;
+	max-width: 276px;
+	padding: 1px;
+	text-align: left;
+	background-color: #ffffff;
+	-webkit-background-clip: padding-box;
+	-moz-background-clip: padding;
+	background-clip: padding-box;
+	border: 1px solid #ccc;
+	border: 1px solid rgba(0, 0, 0, 0.2);
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	border-radius: 6px;
+	-webkit-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+	-moz-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+	box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+	white-space: normal;
+}
+
+popover.top .arrow {
+	left: 50%;
+	margin-left: -11px;
+	border-bottom-width: 0;
+	border-top-color: #999;
+	border-top-color: rgba(0, 0, 0, 0.25);
+	bottom: -11px;
+}
+.popover .arrow {
+	border-width: 11px;
+}
+.popover .arrow, .popover .arrow:after {
+	position: absolute;
+	display: block;
+	width: 0;
+	height: 0;
+	border-color: transparent;
+	border-style: solid;
+}
+
+.popover .tour-buttons {
+padding: 8px 10px;
+min-height: 27px;
+background: #f5f5f5;
+border-radius: 0px 0px 6px 6px;
+}
+.popover .tour-buttons {
+padding: 8px 10px;
+min-height: 27px;
+background: #f5f5f5;
+border-radius: 0px 0px 6px 6px;
+}
+.btn-primary {
+color: #ffffff;
+text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+background-color: #006dcc;
+background-image: -moz-linear-gradient(top, #0088cc, #0044cc);
+background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#0088cc), to(#0044cc));
+background-image: -webkit-linear-gradient(top, #0088cc, #0044cc);
+background-image: -o-linear-gradient(top, #0088cc, #0044cc);
+background-image: linear-gradient(to bottom, #0088cc, #0044cc);
+background-repeat: repeat-x;
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff0088cc', endColorstr='#ff0044cc', GradientType=0);
+border-color: #0044cc #0044cc #002a80;
+border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
+}
+.btn-small {
+padding: 2px 10px;
+font-size: 11.9px;
+-webkit-border-radius: 3px;
+-moz-border-radius: 3px;
+border-radius: 3px;
+}
+.btn {
+display: inline-block;
+padding: 4px 12px;
+margin-bottom: 0;
+font-size: 14px;
+line-height: 20px;
+text-align: center;
+vertical-align: middle;
+cursor: pointer;
+color: #333333;
+text-shadow: 0 1px 1px rgba(255, 255, 255, 0.75);
+background-color: #f5f5f5;
+background-image: -moz-linear-gradient(top, #ffffff, #e6e6e6);
+background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#ffffff), to(#e6e6e6));
+background-image: -webkit-linear-gradient(top, #ffffff, #e6e6e6);
+background-image: -o-linear-gradient(top, #ffffff, #e6e6e6);
+background-image: linear-gradient(to bottom, #ffffff, #e6e6e6);
+background-repeat: repeat-x;
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffffff', endColorstr='#ffe6e6e6', GradientType=0);
+border-color: #e6e6e6 #e6e6e6 #bfbfbf;
+border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
+border: 1px solid #cccccc;
+border-bottom-color: #b3b3b3;
+-webkit-border-radius: 4px;
+-moz-border-radius: 4px;
+border-radius: 4px;
+-webkit-box-shadow: inset 0 1px 0 rgba(255,255,255,.2), 0 1px 2px rgba(0,0,0,.05);
+-moz-box-shadow: inset 0 1px 0 rgba(255,255,255,.2), 0 1px 2px rgba(0,0,0,.05);
+box-shadow: inset 0 1px 0 rgba(255,255,255,.2), 0 1px 2px rgba(0,0,0,.05);
+}

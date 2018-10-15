@@ -1,0 +1,62 @@
+/* header with LOGO */
+#header{background: url(http://opendomo.com/od/logo.jpg) no-repeat scroll center top #FFF;border:1px solid #ccc;color:transparent;padding-top:60px;}
+
+/* add and sustract buttons */
+.a{background:url(http://opendomo.com/od/add.png) no-repeat;color:transparent;}
+.s{background:url(http://opendomo.com/od/sub.png) no-repeat;color:transparent;}
+
+.a, .s{
+	display:inline-block;
+	position:relative;
+	width:20px;
+	height:20px;
+	left:auto!important;
+}
+
+
+/* digital input shown as a LED */
+li.ION  a{background:url(http://opendomo.com/od/di_on.png) no-repeat 30px 0px;color:transparent;height:27px;}
+li.IOFF a{background:url(http://opendomo.com/od/di_off.png) no-repeat 30px 0px;color:transparent;height:27px;}
+
+/* digital output acts like a switch */
+li.OON  a{background:url(http://opendomo.com/od/on.png) no-repeat;color:transparent;height:27px;}
+li.OOFF a{background:url(http://opendomo.com/od/off.png) no-repeat;color:transparent;height:27px;} 
+
+/* analog input is just a box */
+li.AI   a{border:1px solid gray; text-align:right;}
+
+/* analog output is a box with plus/minus */
+li.AO div{
+	display:inline-block;
+	position: absolute;
+	left: 125px;
+	padding: 5px;
+	margin:0px!important;
+}
+li.AO   span{display:inline-block;width:100px; border:1px solid gray; text-align:right;}
+
+/* toolbar */
+#cat-tools {background:url(http://opendomo.com/od/eines.png) no-repeat;}
+#cat-map {background:url(http://opendomo.com/od/planell.png) no-repeat;}
+#cat-help {background:url(http://opendomo.com/od/help.png) no-repeat;}
+
+#cat-tools, #cat-map, #cat-help {
+	display: inline !important;
+	padding: 10px 10px 10px 32px;
+	background-position: 4px 4px;
+}
+
+/* timers */
+a[id*='update_'] {
+	background:url(http://opendomo.com/od/ok.jpg) no-repeat;color:transparent;width:40px;
+} 
+
+li input[type='text']{
+	width: 150px;
+	float:right;
+	margin-right: 50px;
+}
+
+iframe {
+	height:auto;
+}
